@@ -22,3 +22,6 @@ cersei = Character.create(name: "Cersei Lannister", title: "Queen of the Andals 
 jaime = Character.create(name: "Jaime Lannister", title: "Ser", alias: "Kingslayer", image: "https://vignette4.wikia.nocookie.net/gameofthrones/images/c/c5/Jaime_s6_Ep08_.jpg/revision/latest?cb=20161215030911", house: lannister)
 
 daenerys = Character.create(name: "Daenerys Targaryen", title: "Khaleesi of the Great Grass Sea", alias: "The Dragon Queen", image: "https://vignette3.wikia.nocookie.net/gameofthrones/images/8/88/Daenerys_Targaryen_S7_Promo_Image.PNG/revision/latest?cb=20170420191154", house: targaryen)
+missandei = Character.create(name: "Missandei", title: "interpreter", alias: "none", image: "https://vignette3.wikia.nocookie.net/gameofthrones/images/d/d5/Missandei_Season_7_promo_image.PNG/revision/latest?cb=20170420202245", house: targaryen)
+
+olenna = Character.create(name: "Olenna Tyrell", title: "Lady of House Tyrell", alias: "The Queen of Thorns", image: "https://vignette1.wikia.nocookie.net/gameofthrones/images/b/bb/Olenna_season_6_a.jpg/revision/latest?cb=20160718204242", house: tyrell)
