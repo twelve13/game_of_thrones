@@ -1,8 +1,10 @@
+<div class="indiv-house">
+<div class="name-image">
 <h1>House <%= @house.name %> <%= link_to "(edit)", edit_house_path(@house) %></h1>
 
 <%= image_tag @house.image %>
-
-<h4>Sigil: <%= @house.sigil %></h4>
+</div>
+<div class="sigil">Sigil: <%= @house.sigil %></div>
 <h4>Words: "<%= @house.words %>"</h4>
 
 <h2>Characters <%= link_to "(+)", new_house_character_path(@house) %></h2>
@@ -15,3 +17,4 @@
 	<% end %>
 </ul>
 
+</div>
