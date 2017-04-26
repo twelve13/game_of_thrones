@@ -1,5 +1,8 @@
 class HousesController < ApplicationController
 
+def landing
+
+end
 def index
 	@houses = House.all
 end

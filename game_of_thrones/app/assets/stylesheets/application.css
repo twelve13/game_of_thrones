@@ -13,3 +13,59 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+	background-color: black;
+	color: white;
+	font-family: thrones;
+}
+@font-face {
+	font-family: "thrones";
+	src: url('game_of_thrones.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "thrones";
+	src: font-url('game_of_thrones.ttf') format("truetype");
+}
+
+.landing {
+	background-image: url("https://www.walldevil.com/wallpapers/w03/953970-banners-crown-game-of-thrones-house-arryn-house-baratheon-house-greyjoy-house-karstark-house-lannister-house-martell-house-stark-house-targaryen-house-tully-house-tyrell-stag.jpg");
+	background-position: bottom center;
+	height: 100vh;
+}
+
+header * {
+
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+a, a:visited{
+     color: white;
+}
+
+.new {
+	text-align: center;
+}
+
+.house {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 20%;
+	padding: 2% 1%;
+	box-sizing: border-box;
+}
+
+.house * {
+	width: 100%;
+	text-align: center;
+}
+
+.houses-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
