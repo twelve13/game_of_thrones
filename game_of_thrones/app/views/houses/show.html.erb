@@ -4,8 +4,9 @@
 
 <%= image_tag @house.image %>
 </div>
-<div class="sigil">Sigil: <%= @house.sigil %></div>
-<h4>Words: "<%= @house.words %>"</h4>
+<div class="sigil">
+	<p>Sigil: <%= @house.sigil %></p>
+	<p>Words: "<%= @house.words %>"</p>
 
 <h2>Characters <%= link_to "(+)", new_house_character_path(@house) %></h2>
 
@@ -16,5 +17,5 @@
 	</li>
 	<% end %>
 </ul>
-
+</div>
 </div>
