@@ -1,11 +1,11 @@
-<h1>House <%= @house.name %></h1>
+<h1>House <%= @house.name %> <%= link_to "(edit)", edit_house_path(@house) %></h1>
 
 <%= image_tag @house.image %>
 
 <h4>Sigil: <%= @house.sigil %></h4>
 <h4>Words: "<%= @house.words %>"</h4>
 
-<h2>Characters</h2>
+<h2>Characters <%= link_to "(+)", new_house_character_path(@house) %></h2>
 
 <ul>
 	<% @house.characters.each do |character| %>

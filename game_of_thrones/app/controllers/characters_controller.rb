@@ -6,7 +6,7 @@ def show
 end
 
 def new
-	@house = Artist.find(params[:house_id])
+	@house = House.find(params[:house_id])
 	@character = Character.new
 end
 
