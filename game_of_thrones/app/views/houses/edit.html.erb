@@ -15,3 +15,7 @@
 
 	<%= f.submit %>
 <% end %>
+
+<%= form_for @house, method: :delete do |f| %>
+	<%= f.submit "Delete" %>
+<% end %>

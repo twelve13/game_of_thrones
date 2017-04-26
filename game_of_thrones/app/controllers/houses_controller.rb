@@ -27,6 +27,12 @@ def update
 	redirect_to house_path(@house)
 end
 
+def destroy
+	@house = House.find(params[:id])
+	@house.destroy
+	redirect_to houses_path
+end
+
 
 private
 def house_params
