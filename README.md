@@ -1,8 +1,8 @@
 # A Game of Thrones wiki built to learn Ruby on Rails
 
-![landing page](app/landing-page.png)
+![landing page](game_of_thrones/app/landing-page.png)
 
-![houses page](app/houses.png)
+![houses page](game_of_thrones/app/houses.png)
 
 Note to self:
 
