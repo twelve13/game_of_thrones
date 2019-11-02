@@ -1,3 +1,20 @@
+# A Game of Thrones wiki built to learn Ruby on Rails
+
+Note to self:
+
+To launch locally, 
+
+in terminal:
+
+$ rails server
+
+then in browser go to:
+
+http://localhost:3000
+
+
+Original Instructions:
+
 # Houses of Westeros
 
 When you play the Game of Rails, you win or you die.
