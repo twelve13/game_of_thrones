@@ -1,24 +1,13 @@
-# README
+A Game of Thrones wiki built to learn Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Note to self:
 
-Things you may want to cover:
+To launch locally, 
 
-* Ruby version
+in terminal:
 
-* System dependencies
+$ rails server
 
-* Configuration
+then in browser go to:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://localhost:3000
